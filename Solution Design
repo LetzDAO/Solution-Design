@@ -37,7 +37,6 @@ MVE (yes/no)
 ...
 
 
-
 1.3 Digital Objects
 
 (Guideline: What are the digital objects? Describe their characteristics and interaction with the solution)
@@ -64,14 +63,17 @@ Interaction
 (Guideline: Sketch out your architectural strawman)
 
 
+
 2.2 Process View
 
 (Guideline: Map out the key processes you want to implement in your solution.)
 
 
+
 2.3 Data View
 
 (Guideline: Define your key data objects, their attributes and how they relate to each other.)
+
 
 
 3. Network & Consensus
@@ -87,6 +89,7 @@ Interaction
 3.2 Node Requirements
 
 (Guideline: What are the requirements for nodes in your system? Document and highlight the reason for these.)
+
 
 
 3.3 Consensus Requirements
