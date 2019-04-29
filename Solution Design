@@ -1,2 +1,82 @@
-LETZDAO
-Solution Design
+LETZDAO 
+
+SOLUTION DESIGN
+
+1. Preliminary Outline
+
+1.1 Problem Statement
+
+Guideline: Outline the problem that this solution is aiming to solve. Articulate the business needs, the challenges being faced, improvements they are looking to make.
+
+
+
+
+
+Guideline: Describe the characteristics of your problem that are relevant to blockchain solutions and validate the opportunity for a blockchain solution
+
+
+
+
+1.2 Minimum Viable Ecosystem
+
+Guideline: Who are the key users (the type of people, not specific people) in your solution?
+What are their roles and how do they interact with the solution? Are they part of your MVE?
+
+User/Actor 1
+Role
+Interaction with Solution
+MVE (yes/no)
+
+User/Actor 2
+Role
+Interaction with Solution
+MVE (yes/no)
+
+User/Actor 3
+Role
+Interaction with Solution
+MVE (yes/no)
+
+...
+
+
+
+1.3 Digital Objects
+
+
+
+Chapter 2: Solution Architecture
+Strawman
+
+
+Process View
+
+
+Data View
+
+
+Chapter 3: Network & Consensus
+Network Solution Patterns
+
+
+Node Requirements
+
+
+Consensus Requirements
+
+
+Chapter 4: Automation
+Smart Contracts
+
+
+Data Storage
+
+
+Integration Requirements
+
+
+Chapter 5: Final Integration
+Non-Functional Requirements & Assumptions
+
+
+Platform Selection
