@@ -10,10 +10,7 @@ Guideline: Outline the problem that this solution is aiming to solve. Articulate
 
 
 
-
-
 Guideline: Describe the characteristics of your problem that are relevant to blockchain solutions and validate the opportunity for a blockchain solution
-
 
 
 
@@ -43,40 +40,63 @@ MVE (yes/no)
 
 1.3 Digital Objects
 
+Guideline: What are the digital objects? Describe their characteristics and interaction with the solution
+
+Digital Object 1
+Description
+Interaction
+
+Digital Object 2
+Description
+Interaction
+
+Digital Object 3
+Description
+Interaction
+
+...
 
 
-Chapter 2: Solution Architecture
-Strawman
+2. Solution Architecture
+
+2.1 Strawman
+
+Guideline: Sketch out your architectural strawman
 
 
-Process View
+2.2 Process View
+
+Guideline: Map out the key processes you want to implement in your solution.
 
 
-Data View
+2.3 Data View
+
+Guideline: Define your key data objects, their attributes and how they relate to each other.
 
 
-Chapter 3: Network & Consensus
-Network Solution Patterns
+3. Network & Consensus
+3.1 Network Solution Patterns
 
 
-Node Requirements
+3.2 Node Requirements
 
 
-Consensus Requirements
+3.3 Consensus Requirements
 
 
-Chapter 4: Automation
-Smart Contracts
+
+4. Automation
+4.1 Smart Contracts
 
 
-Data Storage
+4.2 Data Storage
 
 
-Integration Requirements
+4.3 Integration Requirements
 
 
-Chapter 5: Final Integration
-Non-Functional Requirements & Assumptions
+5. Final Integration
+5.1 Non-Functional Requirements & Assumptions
 
 
-Platform Selection
+5.2 Platform Selection
