@@ -4,18 +4,20 @@ LETZDAO: SOLUTION DESIGN
 
 1.1 Problem Statement
 
-Guideline: Outline the problem that this solution is aiming to solve. Articulate the business needs, the challenges being faced, improvements they are looking to make.
+(Guideline: Outline the problem that this solution is aiming to solve. Articulate the business needs, the challenges 
+being faced, improvements they are looking to make.)
 
 
 
-Guideline: Describe the characteristics of your problem that are relevant to blockchain solutions and validate the opportunity for a blockchain solution
+(Guideline: Describe the characteristics of your problem that are relevant to blockchain solutions and validate the 
+opportunity for a blockchain solution)
 
 
 
 1.2 Minimum Viable Ecosystem
 
-Guideline: Who are the key users (the type of people, not specific people) in your solution?
-What are their roles and how do they interact with the solution? Are they part of your MVE?
+(Guideline: Who are the key users (the type of people, not specific people) in your solution? What are their roles 
+and how do they interact with the solution? Are they part of your MVE?)
 
 User/Actor 1
 Role
@@ -38,7 +40,7 @@ MVE (yes/no)
 
 1.3 Digital Objects
 
-Guideline: What are the digital objects? Describe their characteristics and interaction with the solution
+(Guideline: What are the digital objects? Describe their characteristics and interaction with the solution)
 
 Digital Object 1
 Description
@@ -59,42 +61,93 @@ Interaction
 
 2.1 Strawman
 
-Guideline: Sketch out your architectural strawman
+(Guideline: Sketch out your architectural strawman)
 
 
 2.2 Process View
 
-Guideline: Map out the key processes you want to implement in your solution.
+(Guideline: Map out the key processes you want to implement in your solution.)
 
 
 2.3 Data View
 
-Guideline: Define your key data objects, their attributes and how they relate to each other.
+(Guideline: Define your key data objects, their attributes and how they relate to each other.)
 
 
 3. Network & Consensus
+
 3.1 Network Solution Patterns
+
+(Guideline: Identify which network patterns and justify your choice. Highlight any risks associated with this decision.)
+
+* transaction accessibility: public / private / hybrid ==> justification & risks
+* transaction procerssing: permissioned / permissionless ==> justification & risks
 
 
 3.2 Node Requirements
 
+(Guideline: What are the requirements for nodes in your system? Document and highlight the reason for these.)
+
 
 3.3 Consensus Requirements
 
+(Guideline: What are your priorities for consensus?)
+
+Property (indicate importance low, mid, high)
+* speed of transaction processing
+* transaction throughput
+* privacy
+* risk of centralisation
 
 
 4. Automation
+
 4.1 Smart Contracts
 
+(Guideline: Do you need smart contracts? Justify your need for and outline any considerations.)
 
 4.2 Data Storage
+
+(Guideline: What are the priorities for storing data in your solution?)
+
+Considerations for storage, priority (low, med, high, NA), reason
+* transparency
+* centralisation
+* redundancy
+* large storage capacity
+* ability to query data
+* low cost of storage
+
+(Guideline: What does the data in your system look like? Where is the most appropriate place to store it? 
+Expand these tables or group data as necessary.)
+
+* on-chain data + justification
+* off-chain data + justification
 
 
 4.3 Integration Requirements
 
+(Guideline: What are the external data sources in your system? Expand these as necessary.)
+
+* External data, data direction, data source, considerations/risks
+
+(Guideline: What are the external systems in your solution?)
+
+* Services (infrastructure, presentation, etc.), requirement, impact
+
 
 5. Final Integration
+
 5.1 Non-Functional Requirements & Assumptions
+
+(Guideline: What are the non-functional requirements for your solution? What are the assumptions and constraints?)
+
+* non-functional requirements, explanation
+* assumptions, constraints
 
 
 5.2 Platform Selection
+
+(Guideline: Which platform have you selected?)
+
+* platform, justification
